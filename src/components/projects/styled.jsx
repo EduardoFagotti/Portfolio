@@ -80,4 +80,13 @@ export const Container = styled.div`
     color: #00a0e0;
     text-decoration: none;
   }
+  .title-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    p {
+      width: auto !important;
+      color: #ff007f;
+    }
+  }
 `;
