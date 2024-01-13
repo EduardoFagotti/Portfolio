@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import img1 from "../../assets/images/certificados/ALGORITMO.PNG";
 import img2 from "../../assets/images/certificados/Conecta.PNG";
-import img3 from "../../assets/images/certificados/Coodesh-Reactjs.PNG";
+// import img3 from "../../assets/images/certificados/Coodesh-Reactjs.PNG";
 import img4 from "../../assets/images/certificados/Fundamentar.PNG";
 import img5 from "../../assets/images/certificados/HTML-CSS-M1.PNG";
 import gif from "../../assets/images/certificados/gifs-de-estudo-1.gif";
@@ -38,11 +38,11 @@ export default function Certifications() {
       name: "Conectar",
       status: "Concluido",
     },
-    {
-      img: img3,
-      name: "Teste de React.js",
-      status: "Concluido",
-    },
+    // {
+    //   img: img3,
+    //   name: "Teste de React.js",
+    //   status: "Concluido",
+    // },
     {
       img: img4,
       name: "Fundamentar",
