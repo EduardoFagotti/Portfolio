@@ -4,10 +4,13 @@ export const Container = styled.div`
   width: 100%;
   height: auto;
   display: flex;
-
   align-items: center;
   justify-content: center;
   padding-top: 100px;
+
+  @media (max-width: 520px) {
+    justify-content: end !important;
+  }
 
   .cont-projects {
     width: 80%;
@@ -19,13 +22,13 @@ export const Container = styled.div`
     justify-content: center;
 
     @media (max-width: 520px) {
-      width: 95%;
+      width: 80%;
+      padding-right: 10px;
     }
 
     .title {
       padding: 20px;
       font-size: 22px;
-
       h1 {
         color: #00a0e0;
       }
@@ -44,6 +47,15 @@ export const Container = styled.div`
         -webkit-box-shadow: 0px 0px 12px 7px rgba(0, 0, 0, 0.84);
         box-shadow: 0px 0px 12px 7px rgba(0, 0, 0, 0.84);
         border-radius: 10px;
+
+        @media (max-width: 520px) {
+          width: 100%;
+
+          img {
+            width: 100% !important;
+          }
+        }
+
         img {
           width: 300px;
           height: 200px;

@@ -10,6 +10,10 @@ export const Container = styled.div`
   padding-top: 100px;
   padding-bottom: 100px;
 
+  @media (max-width: 520px) {
+    justify-content: end !important;
+  }
+
   .cont-certifications {
     width: 80%;
     height: auto;
@@ -20,7 +24,8 @@ export const Container = styled.div`
     justify-content: center;
 
     @media (max-width: 520px) {
-      width: 95%;
+      width: 80%;
+      padding-right: 10px;
     }
 
     .title {
@@ -49,6 +54,14 @@ export const Container = styled.div`
       img {
         width: 300px;
         height: 200px;
+      }
+
+      @media (max-width: 520px) {
+        width: 100%;
+
+        img {
+          width: 100% !important;
+        }
       }
 
       .info {
