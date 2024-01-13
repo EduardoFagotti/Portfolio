@@ -11,7 +11,7 @@ export default function StartPage() {
   const img = "https://avatars.githubusercontent.com/u/79821302?v=4";
 
   return (
-    <Container>
+    <Container id="home">
       <div className="cont-start-page">
         <section>
           <Image className="perfil" src={img} width="160" height="160" />
@@ -21,7 +21,6 @@ export default function StartPage() {
             <div className="skils">
               <Image src={react} width="" heigth="" />
               <Image src={next} width="" heigth="" />
-
               <Image src={js} width="" heigth="" />
               <Image src={css} width="" heigth="" />
               <Image src={html} width="" heigth="" />
@@ -49,10 +48,10 @@ export default function StartPage() {
           </p>
         </div>
       </div>
-      <div className="git">
+      {/* <div className="git">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoFagotti&layout=compact&langs_count=7&theme=algolia" />
         <img src="https://github-readme-stats.vercel.app/api?username=EduardoFagotti&show_icons=true&theme=algolia&include_all_commits=false&count_private=true" />
-      </div>
+      </div> */}
     </Container>
   );
 }

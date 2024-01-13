@@ -1,4 +1,5 @@
 import StartPage from "@/components/StartPage";
+import Certifications from "@/components/certifications";
 import Header from "@/components/header";
 import Projects from "@/components/projects";
 import Head from "next/head";
@@ -22,6 +23,7 @@ export default function Home() {
       <Header />
       <StartPage />
       <Projects />
+      <Certifications />
     </>
   );
 }

@@ -8,60 +8,74 @@ import Img4 from "../../assets/imgProjects/calc.jpg";
 import Img5 from "../../assets/imgProjects/NetflixClone.PNG";
 import Img6 from "../../assets/imgProjects/contador.PNG";
 import Img7 from "../../assets/imgProjects/pokedex.jpeg";
+import Img8 from "../../assets/imgProjects/fteamSite.png";
 
 export default function Projects() {
   const dataProjects = [
+    // {
+    //   img: Img8,
+    //   name: "Site Fteam",
+    //   text: "Participei no desenvolvimendo do site da FTEAM, empresa voltada para o desenvolvimento de aplicativos Mobile. ",
+    //   link: "teste",
+    // },
     {
       img: Img5,
       name: "Clone Netflix",
-      link: "teste",
+      text: "Neste projeto foi feito um clone da Netflix, utilizando uma API publica de capas de filmes e series.",
+      link: "https://lnkd.in/dTsBGeTv",
     },
     {
       img: Img7,
       name: "Pokenext",
-      link: "teste",
+      text: "Este projeto consiste em listar e mostrar informações sobre alguns pokemons, dentro de cada card é exibido as informações e ataque.",
+      link: "https://lnkd.in/d_Mwt745",
     },
     {
       img: Img1,
       name: "Mario jump",
-      link: "teste",
+      text: "Mini game do mario onde ele apenas pula os obstaculos, feito para estudos de JavaScript.",
+      link: "https://dulcet-dasik-952425.netlify.app/",
     },
     {
       img: Img2,
       name: "Usuarios github",
-      link: "teste",
+      text: "Projeto que consiste em efetuar a busca de usuarios do github, é listados os repositorios publicos do usuario.",
+      link: "https://focused-goldwasser-7d64c1.netlify.app/",
     },
     {
       img: Img3,
       name: "Buscador de CEP",
-      link: "teste",
+      text: "Buscador CEP, ao digitar algum CEP, é mostrado na tela o endereço correspondente.",
+      link: "https://hopeful-wright-4b246f.netlify.app/",
     },
     {
       img: Img4,
       name: "Cauculadora de juros",
-      link: "teste",
-    },
-
-    {
-      img: Img6,
-      name: "Contador regressivo",
-      link: "teste",
+      text: "Projeto estraido do guia definitivo de JavaScript, sua utilidade é fazer um calculo de juros e demonstrar em um grafico.",
+      link: "https://calculadora-de-juros-anuais.netlify.app",
     },
   ];
 
   return (
-    <Container>
+    <Container id="projects">
       <div className="cont-projects">
-        <div className="title">Projects</div>
+        <div className="title">
+          <h1>Projetos</h1>
+        </div>
         <div className="cards">
           {dataProjects.map((item) => {
-            const { img, name, link } = item;
+            const { img, name, text, link } = item;
 
             return (
               <div className="card">
                 <Image src={img} width="" heigth="" alt="" />
                 <div className="info">
-                  <Link href={link}>{name}</Link>
+                  <Link id="name" href={link} target="_blank">
+                    {name}
+                  </Link>
+                  <div>
+                    <p>{text}</p>
+                  </div>
                 </div>
               </div>
             );

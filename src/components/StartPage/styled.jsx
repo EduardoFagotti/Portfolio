@@ -5,13 +5,47 @@ export const Container = styled.div`
   height: auto;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 80px;
 
   @media (max-width: 630px) {
-    padding-top: 60px;
+    padding-top: 30px;
+
+    .cont-start-page {
+      margin-right: -30px;
+
+      @media (max-width: 440px) {
+        width: 70%;
+
+        section {
+          width: 300px !important;
+          flex-direction: column;
+          align-items: center;
+          gap: 40px;
+          .text {
+            text-align: center;
+          }
+
+          .skils {
+            @media (max-width: 430px) {
+              width: 300px !important;
+              gap: 5px;
+
+              img {
+                width: 38px;
+                height: 38px;
+              }
+            }
+          }
+        }
+
+        .about {
+          width: 100% !important;
+          margin-top: 40px;
+        }
+      }
+    }
   }
 
   @media (min-width: 1200px) {
@@ -76,6 +110,9 @@ export const Container = styled.div`
   }
 
   .about {
+    h1 {
+      color: #00a0e0;
+    }
     margin-top: 40px;
     width: 600px;
     text-align: justify;

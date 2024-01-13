@@ -13,3 +13,34 @@ body {
   justify-content: space-between;
   background-color: #151317;
 }
+
+#menu:hover {
+  cursor: pointer;
+  animation-duration: 1s;
+  animation-name: animateMenu;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animateMenu {
+  0% {
+    /* width: 0px; */
+  }
+  100% {
+    width: 150px;
+  }
+}
+
+@keyframes reverseMenu {
+  0% {
+    width: 150px;
+  }
+  100% {
+    /* width: 150px; */
+  }
+}
+
+#menu:not(:hover) {
+  animation-name: reverseMenu;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
