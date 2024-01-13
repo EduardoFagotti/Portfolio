@@ -9,6 +9,7 @@ import Img5 from "../../assets/imgProjects/NetflixClone.PNG";
 import Img6 from "../../assets/imgProjects/contador.PNG";
 import Img7 from "../../assets/imgProjects/pokedex.jpeg";
 import Img8 from "../../assets/imgProjects/fteamSite.png";
+import Img9 from "../../assets/imgProjects/gerador.PNG";
 
 export default function Projects() {
   const dataProjects = [
@@ -18,6 +19,12 @@ export default function Projects() {
     //   text: "Participei no desenvolvimendo do site da FTEAM, empresa voltada para o desenvolvimento de aplicativos Mobile. ",
     //   link: "teste",
     // },
+    {
+      img: Img9,
+      name: "Gerador de senhas",
+      text: "Aplicativo desenvolvido em React Native que consiste em gerar senhas aleatorias a partir da quantidade de caracteres.",
+      link: "https://drive.google.com/drive/folders/1CQ-3XHDRFjh-iPmwlRP2YFdaGie9vm-F?usp=drive_link",
+    },
     {
       img: Img5,
       name: "Clone Netflix",
@@ -61,6 +68,7 @@ export default function Projects() {
       <div className="cont-projects">
         <div className="title">
           <h1>Projetos</h1>
+          <p>clique no nome do projeto para obter o link.</p>
         </div>
         <div className="cards">
           {dataProjects.map((item) => {

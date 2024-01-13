@@ -30,10 +30,10 @@ export default function Header() {
           <PiCertificateFill id="icon" />
           <p>CERTIFICATIOS</p>
         </button>
-        <button>
+        {/* <button>
           <BiSolidMessageDetail id="icon" />
           <p>CONTACT</p>
-        </button>
+        </button> */}
       </div>
     </Container>
   );
