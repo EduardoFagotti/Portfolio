@@ -63,7 +63,7 @@ export default function Projects() {
     },
     {
       img: Img4,
-      name: "Cauculadora de juros",
+      name: "Calculadora de juros",
       text: "Projeto estraido do guia definitivo de JavaScript, sua utilidade é fazer um calculo de juros e demonstrar em um grafico.",
       link: "https://calculadora-de-juros-anuais.netlify.app",
       type: "WEB",
