@@ -5,22 +5,23 @@ import img1 from "../../assets/images/certificados/ALGORITMO.PNG";
 import img2 from "../../assets/images/certificados/Conecta.PNG";
 import img4 from "../../assets/images/certificados/Fundamentar.PNG";
 import img5 from "../../assets/images/certificados/HTML-CSS-M1.PNG";
+import img6 from "../../assets/images/certificados/hooks.PNG";
 import gif from "../../assets/images/certificados/gifs-de-estudo-1.gif";
 import img0 from "../../assets/images/certificados/React-UTFPR.PNG";
 
 export default function Certifications() {
   const dataCert = [
-    {
-      img: gif,
-      name: "React Native",
-      status: "em progresso",
-      statusN: 1,
-    },
+  
     {
       img: gif,
       name: "Analise e desenvolvimento de sistemas ( SUPERIOR )",
       status: "em progresso",
       statusN: 1,
+    },
+    {
+      img: img6,
+      name: "Aprofundando em Hooks",
+      status: "Concluido",
     },
     {
       img: img0,

@@ -26,32 +26,36 @@ export default function StartPage() {
               <Image src={html} width="" heigth="" />
               <Image src={git} width="" heigth="" />
             </div>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoFagotti&layout=compact&langs_count=7&theme=algolia" />
           </div>
         </section>
 
         <div className="about">
           <h1>Sobre mim </h1>
           <p>
-            Sou estudante do curso de Análise e Desenvolvimento de Sistemas
-            oferecido pela Universidade Uniasselvi. Acredito que para uma boa
-            formação, são necessários estudos externos ao âmbito universitário.
+          Sou um desenvolvedor Front-end e Mobile com experiência profissional desde 2022, especializado em criar interfaces modernas e responsivas utilizando tecnologias como Next.js, React Native, TypeScript, JavaScript, styled-components, HTML, CSS
+
             <br />
             <br />
-            Por tal motivo, realizei os seguintes cursos complementares:
-            Algoritmo, HTML5, CSS3, JavaScript e React.Js. Ademais, iniciei os
-            estudos em Next.Js. Portanto, a fim de me tornar um profissional
-            extremamente competente, procuro me desenvolver profissionalmente
-            cada dia mais. <br />
-            <br /> Já trabalhei como assistente administrativo durante 01 (um)
-            ano e 10 (dez) meses e no momento atuo como desenvolvedor Front-end
-            web des de fevereiro de 2022.
+            Ao longo da minha carreira, tive a oportunidade de atuar como Desenvolvedor Front-end na Design House, uma empresa de marketing em Maringá, PR, onde contribuí em projetos por 7 meses. <br />
+            <br /> Também atuei como Desenvolvedor Front-end na Log Sistemas, onde colaborei no desenvolvimento de um aplicativo para a Kero Ótica, uma solução que ajudou a otimizar processos internos e melhorar a experiência do usuário. Nesse projeto, utilizei React Native e TypeScript para criar uma aplicação mobile eficiente e escalável, trabalhando em equipe para entregar resultados dentro do prazo. <br />
+            <br />
+            Minhas principais habilidades incluem: <br />
+
+Desenvolvimento de aplicações web e mobile com React.js e React Native. <br />
+
+Criação de interfaces responsivas e dinâmicas com styled-components, CSS e HTML. <br />
+
+Utilização de TypeScript para garantir código mais seguro e escalável. <br />
+
+Versionamento de código com Git/GitHub para colaboração eficiente em equipe. <br />
           </p>
         </div>
       </div>
-      {/* <div className="git">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoFagotti&layout=compact&langs_count=7&theme=algolia" />
-        <img src="https://github-readme-stats.vercel.app/api?username=EduardoFagotti&show_icons=true&theme=algolia&include_all_commits=false&count_private=true" />
-      </div> */}
+      <div className="git">
+        {/* <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoFagotti&layout=compact&langs_count=7&theme=algolia" /> */}
+        {/* <img src="https://github-readme-stats.vercel.app/api?username=EduardoFagotti&show_icons=true&theme=algolia&include_all_commits=false&count_private=true" /> */}
+      </div>
     </Container>
   );
 }
